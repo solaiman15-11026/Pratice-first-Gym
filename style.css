@@ -128,7 +128,7 @@ background-size: cover;
     margin-left: 25px;
     padding:9px;
     border-radius: 20px;
-    box-shadow: ;
+
 }
 .course-details:hover{
     background-image: linear-gradient(#fd297a9a,#892dd4ab);
