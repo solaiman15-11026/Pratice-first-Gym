@@ -1,0 +1,207 @@
+/* ---------------------------- */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-first{
+ background-image: url(./Image/backgorud/w3.jpg);
+ border-radius: 3px;
+ height: 680px;
+background-size: cover;
+
+}
+.first-head{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin-left: 50px;
+   
+
+}
+
+.ankor{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    
+}
+.link-ashr{
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.ankor-2{
+    background-image: linear-gradient(#d83976 ,#cf3b9e56);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 8px;
+    
+}
+.ankor-2:hover{
+    background-image: linear-gradient(#40dfd78e ,#ac1f8283);
+    
+}
+/* @media (max-width:688px) {
+    .container-first{
+        position: fixed;
+    }
+} */
+
+/* ------------------------------h2 ---------------------------*/
+
+.title-head{
+    color: white;
+    font-size: 40px;
+}
+
+/* ------------------------li---------------------------- */
+
+.line{
+    list-style: none;
+    font-size: 20px;
+    margin-left: 27px;
+}
+    
+
+.line-2 {
+    list-style: none;
+    margin-left: 30px;
+}
+
+.Shape{
+    display: block;
+    margin-top: 200px;
+    margin-left: 40px;
+    width: 40%;
+    text-align: justify;
+    color: #d4deebfa;
+    
+    
+}
+.joss{
+    font-size: 47px;
+    
+    
+    
+}
+
+
+/* --------------------------------------------section 2 hobe akon------------------------------------ */
+
+.gym-2{
+    display: flex;
+   
+
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-left: 10px;
+}
+.text{
+    text-align: justify;
+}
+.tt{
+    border-bottom: 6px solid;
+    
+    border-image: linear-gradient(red,rgba(83, 107, 104, 0.322))23;
+    border-image-slice: 1;
+    border-radius: 15px;
+}
+
+/* --------------------------------------------section 3 hobe akon------------------------------------ */
+.container-3{
+    background-color: #ecf0f360;
+}
+.coursess{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row: 10px;
+    grid-column:16px ;
+    margin-left: 100px;
+    margin-right: 90px;
+    margin-top: 30px;
+    
+}
+.course-details{
+    background-color: #ffffff;
+    margin-top: 25px;
+    margin-left: 25px;
+    padding:9px;
+    border-radius: 20px;
+    box-shadow: ;
+}
+.course-details:hover{
+    background-image: linear-gradient(#fd297a9a,#892dd4ab);
+}
+
+.fa-dumbbell , .fa-weight , .fa-swimmer, .fa-heartbeat,.fa-running ,.fa-d-and-d{
+    color: blueviolet;
+    font-size: 70px;
+    
+}
+
+
+
+/* --------------------------------------------section 4 hobe akon------------------------------------ */
+
+.vlog{
+    display: flex;
+    margin-left:60px;
+    margin-right:40px;
+}
+.vlog-details img{
+    width: 100%;
+    border-radius: 2px;
+    
+}
+.vlog-details{
+    padding: 15px;
+    margin: 10px;
+    text-align: justify;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow:  7px 8px 11px rgb(194, 190, 190) ;
+    transition: all 1000ms linear 1s;
+    
+    
+}
+.vlog-details img:hover{
+    transform: scale(0.9);
+    transition: transform 400ms ease-in;
+    
+    
+}
+
+/* -------------------------footer ----------------------*/
+footer{
+    background-image: linear-gradient(#9e30e7d3, #dd57d6f3);
+    height: 230px;
+    width: 100%;
+    /* font-family: 'Lobster Two', cursive; */
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+}
+.social{
+    font-size: 25px;
+}
+.fa-facebook-square {
+    color: #1b18e0;
+}
+.fa-twitter{
+    color: rgb(65, 62, 231);
+}
+.fa-instagram{
+    color: rgb(206, 34, 71);
+}
+
+@media (min-width:588px) and (max-width:992px)  {
+    .container-1, .container-2, .container-3 {
+        width: 100%;
+    }
+    .course-details{
+       
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}
