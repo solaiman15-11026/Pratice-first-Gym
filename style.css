@@ -3,11 +3,12 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-.container-first{
+#container-first{
  background-image: url(./Image/backgorud/w3.jpg);
  border-radius: 3px;
- height: 680px;
+ height: 100%;
 background-size: cover;
+overflow: hidden;
 
 }
 .first-head{
@@ -41,11 +42,7 @@ background-size: cover;
     background-image: linear-gradient(#40dfd78e ,#ac1f8283);
     
 }
-/* @media (max-width:688px) {
-    .container-first{
-        position: fixed;
-    }
-} */
+
 
 /* ------------------------------h2 ---------------------------*/
 
@@ -75,14 +72,10 @@ background-size: cover;
     width: 40%;
     text-align: justify;
     color: #d4deebfa;
-    
-    
 }
+
 .joss{
     font-size: 47px;
-    
-    
-    
 }
 
 
@@ -90,9 +83,7 @@ background-size: cover;
 
 .gym-2{
     display: flex;
-   
-
-    margin-left: 70px;
+   margin-left: 70px;
     margin-right: 70px;
     padding-left: 10px;
 }
@@ -108,7 +99,7 @@ background-size: cover;
 }
 
 /* --------------------------------------------section 3 hobe akon------------------------------------ */
-.container-3{
+#container-3{
     background-color: #ecf0f360;
 }
 .coursess{
@@ -199,39 +190,133 @@ footer{
 
 
 
+/* ----------------------------Meadia quer hobe----------------------------- */
 
-
-
-/* --------------Meadia quer hobe---------- */
-
-<!-- @media (max-width:688px) {
-    .container{
-        width: 100%;
+@media (max-width:688px) {
+    #container-first{
+        width:fit-content ;
+        margin: 0;
+        padding: 8px;
     }
-    .players , .blogs , .courses{
-       
-        grid-template-columns: repeat(1,1fr);
+    #container-second{
+        width:fit-content;
+        margin: 0;
     }
+      #container-3{
+        width:fit-content;
+    margin: 0;
+    }
+.vlog{
+    width:fit-content;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    background-size: cover;
+    padding:0;
     
 }
-@media (min-width:688px) and (max-width:992px)  {
-    .container{
-        width: 100%;
-    }
-    .players , .blogs , .courses{
-       
-        grid-template-columns: repeat(2,1fr);
-    }
-    
-} -->
-@media (min-width:588px) and (max-width:992px)  {
-    .container-1, .container-2, .container-3 {
-        width: 100%;
-        flex-direction: column;
-    }
-    .course-details{
-       
-        grid-template-columns: repeat(1,1fr);
-    }
+.coursess{
+    width:100% ;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.gym-2{
+    width:100% ;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(1,1fr); 
+}
+
+.first-head{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    padding: 0;
+    background-size: cover;
+    overflow: hidden;
+}
+.Shape{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
     
 }
+.link{
+    margin: 0;
+    padding: 0;
+}
+.link-ashr{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+}
+
+
+    /*---------------- Media query for tab ------------------*/
+
+@media (max-width:992px)  {
+    
+    #container-first{
+        width:fit-content ;
+        margin: 0;
+        padding: 8px;
+    }
+    #container-second{
+        width:fit-content;
+        margin: 0;
+    }
+      #container-3{
+        width:fit-content;
+    margin: 0;
+    }
+.vlog{
+    width:fit-content;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    background-size: cover;
+    padding:0;
+    
+}
+.coursess{
+    width:100% ;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.gym-2{
+    width:100% ;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(1,1fr); 
+}
+
+.first-head{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    padding: 0;
+    background-size: cover;
+    overflow: hidden;
+}
+.Shape{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    
+}
+.link{
+    margin: 0;
+    padding: 0;
+}
+.link-ashr{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+} 
+ 
