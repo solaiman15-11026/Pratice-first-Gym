@@ -15,7 +15,8 @@ overflow: hidden;
     display: flex;
     flex-wrap: wrap;
     justify-content:space-between;
-    margin-left: 50px;
+    margin-left: 40px;
+    margin-top: -20px;
    
 
 }
@@ -109,7 +110,7 @@ overflow: hidden;
     grid-row: 10px;
     grid-column:16px ;
     margin-left: 100px;
-    margin-right: 90px;
+    margin-right: 120px;
     margin-top: 30px;
     
 }
@@ -194,20 +195,20 @@ footer{
 
 @media (max-width:688px) {
     #container-first{
-        width:fit-content ;
-        margin: 0;
-        padding: 8px;
+      width: auto;
+     overflow: hidden;
+      
     }
     #container-second{
-        width:fit-content;
+        width:100%;
         margin: 0;
     }
       #container-3{
-        width:fit-content;
-    margin: 0;
+        width:100%;
+    margin: auto;
     }
 .vlog{
-    width:fit-content;
+    width:100%;
     margin: 0;
     display: grid;
     grid-template-columns: repeat(1,1fr);
@@ -219,18 +220,18 @@ footer{
     width:100% ;
     margin: 0;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(1,1fr);
 }
 .gym-2{
     width:100% ;
-    margin: 0;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(1,1fr); 
 }
 
 .first-head{
     width: 100%;
-    margin: 0;
+    margin: auto;
     display: flex;
     padding: 0;
     background-size: cover;
@@ -251,6 +252,16 @@ footer{
     margin: 0;
     padding: 0;
     display: flex;
+    align-items: center;
+    
+}
+.ankor{
+    margin: 0 10px;
+    font-size: 14px;
+}
+.ankor-2{
+    margin: 0 5px;
+    font-size: 14px;
 }
 }
 
@@ -260,20 +271,29 @@ footer{
 @media (max-width:992px)  {
     
     #container-first{
-        width:fit-content ;
+        width:100% ;
         margin: 0;
         padding: 8px;
     }
     #container-second{
-        width:fit-content;
+        width:100%;
         margin: 0;
+        
     }
       #container-3{
-        width:fit-content;
+        width:100%;
     margin: 0;
     }
+
+    #container-4{
+        width: 100%;
+        margin:0;
+    }
+
+
+
 .vlog{
-    width:fit-content;
+    width:auto;
     margin: 0;
     display: grid;
     grid-template-columns: repeat(1,1fr);
@@ -285,11 +305,12 @@ footer{
     width:100% ;
     margin: 0;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(1,1fr);
 }
 .gym-2{
     width:100% ;
     margin: 0;
+    padding: 5px;
     display: grid;
     grid-template-columns: repeat(1,1fr); 
 }
@@ -317,6 +338,17 @@ footer{
     margin: 0;
     padding: 0;
     display: flex;
+    align-items: center;
+}
+.detais{
+    width: 100%;
+}
+.ig img{
+    width: 100%;
+    
+}
+.course-details{
+    margin: 7px 0px;
 }
 } 
  
