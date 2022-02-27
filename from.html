@@ -17,8 +17,6 @@
     body {
         background-image: url(./Image/photo-1517963628607-235ccdd5476c.jpg);
         font-family: 'Poppins', sans-serif;
-        display: flex;
-        flex-wrap: wrap;
 
 
     }
@@ -26,10 +24,8 @@
     .container {
 
         padding: 0 auto;
-        margin-left: 250px;
-        margin-right: 250px;
-
-
+        width: 100%;
+        position: relative;
     }
 
     input[type=text],
@@ -73,7 +69,8 @@
 
     .ovi {
         background-image: linear-gradient(rgba(0, 255, 255, 0.329), rgba(128, 128, 128, 0.26));
-        margin-top: 60px;
+        margin: 60px 250px;
+
     }
 
     .hell {
@@ -88,8 +85,12 @@
     }
 
     @media (max-width:688px) {
+        .container {
+            width: 100%;
+        }
+
         .ovi {
-            flex-direction: column;
+            margin: 0px;
         }
     }
 </style>
@@ -97,12 +98,9 @@
 <body>
 
     <section class="container">
-        <!-- <div class="from-ig">
-            <img src="./Image/from.png" alt="" srcset="">
-        </div> -->
         <div class="ovi">
             <h2 class="hell" style="text-align: center; color: rgba(5, 5, 5, 0.637);">Joining Form!</h2>
-            <form action="/action_page.php">
+            <form class="fotun">
                 <div style="padding: 0px 10px">
                     <label for="fname">First Name</label>
                     <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -134,34 +132,3 @@
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-<!-- @media (max-width:688px) {
-    .container{
-        width: 100%;
-    }
-    .players , .blogs , .courses{
-       
-        grid-template-columns: repeat(1,1fr);
-    }
-    
-}
-@media (min-width:688px) and (max-width:992px)  {
-    .container{
-        width: 100%;
-    }
-    .players , .blogs , .courses{
-       
-        grid-template-columns: repeat(2,1fr);
-    }
-    
-} -->
