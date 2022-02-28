@@ -195,17 +195,24 @@ footer{
 
 @media (max-width:688px) {
     #container-first{
-      width: auto;
+      width: 100%;
      overflow: hidden;
+     padding: 0;
+     margin: 0;
       
     }
     #container-second{
         width:100%;
         margin: 0;
+        overflow: hidden;
     }
       #container-3{
         width:100%;
-    margin: auto;
+    margin:0;
+    }
+
+    .fgfg{
+        overflow: hidden;
     }
 .vlog{
     width:100%;
@@ -224,14 +231,14 @@ footer{
 }
 .gym-2{
     width:100% ;
-    margin: auto;
+    margin:0;
     display: grid;
     grid-template-columns: repeat(1,1fr); 
 }
 
 .first-head{
     width: 100%;
-    margin: auto;
+    margin: 0;
     display: flex;
     padding: 0;
     background-size: cover;
@@ -263,6 +270,9 @@ footer{
     margin: 0 5px;
     font-size: 14px;
 }
+.joss{
+    font-size: 20px;
+}
 }
 
 
@@ -293,7 +303,7 @@ footer{
 
 
 .vlog{
-    width:auto;
+    width:100%;
     margin: 0;
     display: grid;
     grid-template-columns: repeat(1,1fr);
@@ -350,5 +360,6 @@ footer{
 .course-details{
     margin: 7px 0px;
 }
+
 } 
  
