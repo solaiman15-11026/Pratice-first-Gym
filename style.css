@@ -195,16 +195,16 @@ footer{
 
 @media (max-width:688px) {
     #container-first{
-      width: 100%;
-     overflow: hidden;
-     padding: 0;
-     margin: 0;
+        width:97% ;
+        margin: 0;
+        padding: 4px;
+        background-size: cover;
       
     }
     #container-second{
         width:100%;
         margin: 0;
-        overflow: hidden;
+        padding-right: 4px;
     }
       #container-3{
         width:100%;
@@ -263,7 +263,7 @@ footer{
     
 }
 .ankor{
-    margin: 0 10px;
+    margin: 0 5px;
     font-size: 14px;
 }
 .ankor-2{
@@ -281,9 +281,10 @@ footer{
 @media (max-width:992px)  {
     
     #container-first{
-        width:100% ;
+        width:97% ;
         margin: 0;
         padding: 8px;
+        background-size: cover;
     }
     #container-second{
         width:100%;
